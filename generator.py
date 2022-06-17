@@ -39,7 +39,6 @@ def generate(word_length: int, quantity: int, alphabet: T_ALPHABET) -> Iterable[
                 f'Not implemented. {word_as_list_of_indexes=}, {current_position=}, {previous_position=}'
             )
 
-
 # 1. Последовательно добавление определенных символов до нужной длинны
 # 2. Добавление слова в список
 # 3. Переход к следующему символу последовательно, запоминая какие символы были использованны
